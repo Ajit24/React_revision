@@ -4,7 +4,7 @@ import './App.css';
 //import Validation from './Component/Validation/Validation'
 //import Counter from './Component/Counter'
 //import StopAfterSomeTime from './Component/StopAfterSomeTime/StopAfterSomeTime';
-import HideBTNAfterSomeCount from './Component/HideBTNAfterSomeCount/HideBTNAfterSomeCount';
+//import HideBTNAfterSomeCount from './Component/HideBTNAfterSomeCount/HideBTNAfterSomeCount';
 function App() {
   return (
     <div className="App">
@@ -12,7 +12,8 @@ function App() {
       {/* <Test/> */}
       {/* <Validation /> */}
         {/* <StopAfterSomeTime/> */}
-        <HideBTNAfterSomeCount/>
+        {/* <HideBTNAfterSomeCount/> */}
+        
 
     </div>
   );
