@@ -5,6 +5,8 @@ import './App.css';
 //import Counter from './Component/Counter'
 //import StopAfterSomeTime from './Component/StopAfterSomeTime/StopAfterSomeTime';
 //import HideBTNAfterSomeCount from './Component/HideBTNAfterSomeCount/HideBTNAfterSomeCount';
+//import AddTwoNum from "./Component/AddTwoNum/AddTwoNum";
+
 function App() {
   return (
     <div className="App">
@@ -13,7 +15,7 @@ function App() {
       {/* <Validation /> */}
         {/* <StopAfterSomeTime/> */}
         {/* <HideBTNAfterSomeCount/> */}
-        
+      {/* <AddTwoNum/> */}
 
     </div>
   );
