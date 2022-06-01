@@ -6,6 +6,7 @@ import './App.css';
 //import StopAfterSomeTime from './Component/StopAfterSomeTime/StopAfterSomeTime';
 //import HideBTNAfterSomeCount from './Component/HideBTNAfterSomeCount/HideBTNAfterSomeCount';
 //import AddTwoNum from "./Component/AddTwoNum/AddTwoNum";
+import DisableButton from './Component/DisableButton/DisableButton';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         {/* <StopAfterSomeTime/> */}
         {/* <HideBTNAfterSomeCount/> */}
       {/* <AddTwoNum/> */}
+      <DisableButton/>
 
     </div>
   );
