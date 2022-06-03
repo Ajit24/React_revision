@@ -10,6 +10,7 @@ import './App.css';
 //import ImgSlider1 from './Component/ImgSlider1/ImgSlider1';
 //import ImageSlider from './Component/ImageSlider/ImageSlider';
 import DigitalClock from './Component/DigitalClock/DigitalClock';
+import LoginForm from './Component/LoginForm/LoginForm';
 function App() {
   return (
     <div className="App">
@@ -23,7 +24,9 @@ function App() {
       {/* <ImgSlider1/> */}
       {/* <ImageSlider/> */}
       {/* <ImageSlider/> */}
-      <DigitalClock/>
+      {/* <DigitalClock/> */}
+
+      <LoginForm/>
 
     </div>
   );
