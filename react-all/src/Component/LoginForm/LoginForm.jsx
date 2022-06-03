@@ -15,7 +15,7 @@ export default function LoginForm() {
         value={userName}
         onChange={(e) => setUserName(e.target.value)}
         placeholder="User Name"
-      />{" "}
+      />
       <br />
       <br />
       <input
@@ -23,7 +23,7 @@ export default function LoginForm() {
         value={password}
         onChange={(e) => setPassword(e.target.value)}
         placeholder="Password"
-      />{" "}
+      />
       <br />
       <br />
       <button onClick={() => handleADD()}>Add</button>
