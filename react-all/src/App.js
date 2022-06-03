@@ -7,7 +7,7 @@ import './App.css';
 //import HideBTNAfterSomeCount from './Component/HideBTNAfterSomeCount/HideBTNAfterSomeCount';
 //import AddTwoNum from "./Component/AddTwoNum/AddTwoNum";
 //import DisableButton from './Component/DisableButton/DisableButton';
-
+//import ImgSlider1 from './Component/ImgSlider1/ImgSlider1';
 function App() {
   return (
     <div className="App">
@@ -18,6 +18,7 @@ function App() {
         {/* <HideBTNAfterSomeCount/> */}
       {/* <AddTwoNum/> */}
       {/* <DisableButton/> */}
+      {/* <ImgSlider1/> */}
 
     </div>
   );
