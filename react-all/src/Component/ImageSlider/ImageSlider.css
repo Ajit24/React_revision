@@ -1,0 +1,13 @@
+.Icon{
+    border: 2px solid red;
+    display: flex;
+}
+.Icon>div:nth-child(1){
+    border: 2px solid blue;
+    margin-left: 10%;
+}
+
+.Icon>div:nth-child(2){
+    border: 2px solid black;
+    margin-left: 80%;
+}
