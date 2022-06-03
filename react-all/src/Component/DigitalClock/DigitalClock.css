@@ -1,0 +1,18 @@
+.TimeClk{
+    display: flex;
+    border: 2px solid red;
+    padding-left: 43%;
+    padding-top: 5%;
+    padding-bottom: 4% ;
+    gap: 1%;
+    /* font-family: "digital-clock-font"; */
+    /* font-family: 'Digital Numbers', sans-serif; */
+    font-weight: bolder;
+    font-size: larger;
+
+}
+
+TimeClk>p{
+    /* font-family: 'Digital Numbers', sans-serif */
+    
+}
