@@ -8,6 +8,8 @@ import './App.css';
 //import AddTwoNum from "./Component/AddTwoNum/AddTwoNum";
 //import DisableButton from './Component/DisableButton/DisableButton';
 //import ImgSlider1 from './Component/ImgSlider1/ImgSlider1';
+//import ImageSlider from './Component/ImageSlider';
+import ImageSlider from './Component/ImageSlider/ImageSlider';
 function App() {
   return (
     <div className="App">
@@ -19,6 +21,8 @@ function App() {
       {/* <AddTwoNum/> */}
       {/* <DisableButton/> */}
       {/* <ImgSlider1/> */}
+      {/* <ImageSlider/> */}
+      <ImageSlider/>
 
     </div>
   );

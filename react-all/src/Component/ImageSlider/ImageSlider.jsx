@@ -19,7 +19,7 @@ export default function ImageSlider() {
     ]
 
     const [current, setCurrent] = useState(0)
-    // console.log("currrrr", current)
+     console.log("currrrr", current)
     let imgInterval;
 
     function auto() {
