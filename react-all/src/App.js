@@ -9,8 +9,9 @@ import './App.css';
 //import DisableButton from './Component/DisableButton/DisableButton';
 //import ImgSlider1 from './Component/ImgSlider1/ImgSlider1';
 //import ImageSlider from './Component/ImageSlider/ImageSlider';
-import DigitalClock from './Component/DigitalClock/DigitalClock';
-import LoginForm from './Component/LoginForm/LoginForm';
+//import DigitalClock from './Component/DigitalClock/DigitalClock';
+//import LoginForm from './Component/LoginForm/LoginForm';
+import TimeClock from './Component/TimeClock/TimeClock';
 function App() {
   return (
     <div className="App">
@@ -26,7 +27,8 @@ function App() {
       {/* <ImageSlider/> */}
       {/* <DigitalClock/> */}
 
-      <LoginForm/>
+      {/* <LoginForm/> */}
+      <TimeClock/>
 
     </div>
   );
