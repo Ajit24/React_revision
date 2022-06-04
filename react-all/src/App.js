@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 //import Test from './Component/Test/Test';
 //import Validation from './Component/Validation/Validation'
@@ -14,6 +14,7 @@ import './App.css';
 //import TimeClock from './Component/TimeClock/TimeClock';
 import DigitalClk from './Component/DigitalClk/DigitalClk'
 import OnBlurInput from './Component/OnBlurInput/OnBlurInput';
+import FetchDataObj from './Component/FetchDataObj/FetchDataObj';
 function App() {
   return (
     <div className="App">
@@ -34,6 +35,8 @@ function App() {
       {/* <DigitalClk/> */}
 
       {/* <OnBlurInput/> */}
+
+     <FetchDataObj/>
 
     </div>
   );
