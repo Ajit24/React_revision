@@ -11,7 +11,8 @@ import './App.css';
 //import ImageSlider from './Component/ImageSlider/ImageSlider';
 //import DigitalClock from './Component/DigitalClock/DigitalClock';
 //import LoginForm from './Component/LoginForm/LoginForm';
-import TimeClock from './Component/TimeClock/TimeClock';
+//import TimeClock from './Component/TimeClock/TimeClock';
+import DigitalClk from './Component/DigitalClk/DigitalClk'
 function App() {
   return (
     <div className="App">
@@ -28,7 +29,8 @@ function App() {
       {/* <DigitalClock/> */}
 
       {/* <LoginForm/> */}
-      <TimeClock/>
+      {/* <TimeClock/> */}
+      <DigitalClk/>
 
     </div>
   );
