@@ -7,9 +7,9 @@ const[hour , setHour] = useState(0)
 const[sec , setSec] = useState(0)
 const[mins , setMins] = useState(0)
 
-const[day,setDay] = useState("")
-const[year, setYear] = useState("")
-const[month , setMonth] = useState("")
+// const[day,setDay] = useState("")
+// const[year, setYear] = useState("")
+// const[month , setMonth] = useState("")
 
 const[notation , setNotation] = useState("")
 
@@ -21,9 +21,9 @@ useEffect(() => {
     setMins(current.getMinutes())
     setSec(current.getSeconds())
 
-    setDay(current.getDate())
-    setMonth(current.getMonth())
-    setYear(current.getFullYear())
+    // setDay(current.getDate())
+    // setMonth(current.getMonth())
+    // setYear(current.getFullYear())
     
 },[])
 
@@ -61,11 +61,11 @@ useEffect(() => {
        <p>{notation}</p>
        </div>
 
-       <div className='TimeClk'>
+       {/* <div className='TimeClk'>
        <p>Day: {day}</p>
        <p>Month : {month + 1}</p>
        <p>Year : {year}</p>
-       </div>
+       </div> */}
     </div>
   )
 }
