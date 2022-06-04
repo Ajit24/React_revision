@@ -13,6 +13,7 @@ import './App.css';
 //import LoginForm from './Component/LoginForm/LoginForm';
 //import TimeClock from './Component/TimeClock/TimeClock';
 import DigitalClk from './Component/DigitalClk/DigitalClk'
+import OnBlurInput from './Component/OnBlurInput/OnBlurInput';
 function App() {
   return (
     <div className="App">
@@ -30,7 +31,9 @@ function App() {
 
       {/* <LoginForm/> */}
       {/* <TimeClock/> */}
-      <DigitalClk/>
+      {/* <DigitalClk/> */}
+
+      {/* <OnBlurInput/> */}
 
     </div>
   );
