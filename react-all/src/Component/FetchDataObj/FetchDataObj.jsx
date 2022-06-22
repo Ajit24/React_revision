@@ -23,7 +23,7 @@ var arrr = []
 
 var datafilter = result.map((e) => arrr.push(...e.sessions))
 
-console.log("datafilter" , arrr)
+console.log("datafilter" , arrr)     
 
   return (
     <div>
