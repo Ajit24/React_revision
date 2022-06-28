@@ -1,0 +1,51 @@
+> show dbs  --> Shows all exiting data-base.
+
+Q 1). create a database called assignment?
+
+> use assignment  --> Will create one collection named as assignment and switched to assignment collection.
+
+Q 2). Create collection called users?
+
+> db.createCollection('users')  --> Will create new collections named as users.
+
+Q 3). Insert 10 documents in this users collection using both insert and insertMany?
+
+> db.users.insert({"first_name": "Ajit", "last_name": "Kumar", "email": "ajit917@gmail.com", "gender": "Male", "ip_address": "31.204.150.76", "age": 25})  
+							--> Will insert following data having following fields as one document inside assignment collection.
+
+> db.users.insertMany([{"first_name": "Suraj", "last_name": "Kr", "email": "abc@gmail.com", "gender": "Female", "ip_address": "31.244.150.46", "age": 16}, 
+	{"first_name": "Saurav", "last_name": "Kumar", "email": "xyz@gmail.com", "gender": "Male", "ip_address": "31.104.150.76", "age": 32}, 
+	{"first_name": "Vikky", "last_name": "Chopra", "email": "abc@ymail.com", "gender": "Female", "ip_address": "131.24.150.76", "age": 42}, 
+	{"first_name": "Ankit", "last_name": "Sharma", "email": "abs@abc.com", "gender": "Male", "ip_address": "31.204.220.26", "age": 28}, 
+	{"first_name": "Prateek", "last_name": "Sharma", "email": "abc@no.com", "gender": "Male", "ip_address": "31.204.153.74", "age": 53}, 
+	{"first_name": "Sharma", "last_name": "Shushant", "email": "sharma@gmail.com", "gender": "Female", "ip_address": "31.234.130.74", "age": 33}, 
+	{"first_name": "Dhaval", "last_name": "Chheda", "email": "dhaval@gmail.com", "gender": "Female", "ip_address": "103.204.150.46", "age": 18}, 
+	{"first_name": "Vikas", "last_name": "Kumar", "email": "yellow@gmail.com", "gender": "Male", "ip_address": "31.324.130.56", "age": 42}])
+		--> Will insert following data having following fields at once and create 8 documents inside assignment collection.
+
+Q 4). Select all the documents in the users collection using find and also a single document using findOne?
+
+>  db.users.find().pretty()  --> Will Select all the documents in the users collection using find().
+
+> db.users.findOne({"first_name": "Vikas"}) --> Will Select single document using findOne (return very first inserted document from all matched documents).
+
+Q 5). Update at least 3 documents using update and updateMany?
+
+> db.users.update({"_id" : ObjectId("61af02f0f0b8773b3670e87a")}, {$set: {"email": "red@red.com", "age": 46}}) --> Will update documents having following id.
+
+> db.users.updateMany({"first_name": "Vikas"}, {$set: {"age": 22}})  --> Will update all documnets having first_name = Vikas.
+
+> db.users.update({"first_name": "Vikas"}, {$set: {"age": 22}})  --> Will update very first documnets having first_name = Vikas
+
+Q 6). Delete documents using remove, remove that will remove just 1 document, deleteOne, deleteMany?
+
+> db.users.remove({"first_name": "Vikas"}, 1)  --> Will delete very first one documents having first_name = Vikas.
+
+> db.users.remove({"first_name": "Vikas"})  --> Will delete all documents having first_name = Vikas.
+
+> db.users.deleteOne({"gender": "Male"}) --> Will delete very first one document having gender = male.
+
+> db.users.deleteMany({"gender": "Female"}) --> Will delete all document having gender = male.
+
+Q 7). Then delete the database?
+> db.dropDatabase() -> will delete selected database.
