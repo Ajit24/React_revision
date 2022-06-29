@@ -17,6 +17,7 @@ import OnBlurInput from './Component/OnBlurInput/OnBlurInput';
 import FetchDataObj from './Component/FetchDataObj/FetchDataObj';
 import Timer from './Component/Timer/Timer';
 import WeatherApp from './Component/WeatherApp/WeatherApp';
+import Count2 from './Component/Count2/Count2';
 function App() {
   return (
     <div className="App">
@@ -40,7 +41,8 @@ function App() {
 
      {/* <FetchDataObj/> */}
      {/* <Timer/> */}
-     <WeatherApp/>
+     {/* <WeatherApp/> */}
+     <Count2/>
 
     </div>
   );

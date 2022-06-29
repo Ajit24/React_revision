@@ -4,8 +4,17 @@ const Count2 = () => {
     const [count1, setCount1] = useState(0);
     const [count2, setCount2] = useState(0);
 
- 
+ useEffect(()=>{
+    document.title = `${count1}`;
+ })
 
+ const handleClick1 = ()=>{
+    setCount1(count1+1);
+ }
+
+ const handleClick2 = ()=>{
+setCount2(count2+1);
+ }
   return (
     <div>
       
