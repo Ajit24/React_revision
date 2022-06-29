@@ -20,6 +20,7 @@ import WeatherApp from './Component/WeatherApp/WeatherApp';
 import Count2 from './Component/Count2/Count2';
 import Login from './Component/Login/Login';
 import Cards from './Component/Cards/Cards';
+import ImageUpload from './Component/ImageUpload/ImageUpload';
 function App() {
   return (
     <div className="App">
@@ -46,7 +47,8 @@ function App() {
      {/* <WeatherApp/> */}
      {/* <Count2/> */}
       {/* <Login/> */}
-      <Cards/>
+      {/* <Cards/> */}
+      <ImageUpload/>
     </div>
   );
 }
