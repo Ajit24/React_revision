@@ -19,6 +19,7 @@ import Timer from './Component/Timer/Timer';
 import WeatherApp from './Component/WeatherApp/WeatherApp';
 import Count2 from './Component/Count2/Count2';
 import Login from './Component/Login/Login';
+import Cards from './Component/Cards/Cards';
 function App() {
   return (
     <div className="App">
@@ -44,7 +45,8 @@ function App() {
      {/* <Timer/> */}
      {/* <WeatherApp/> */}
      {/* <Count2/> */}
-      <Login/>
+      {/* <Login/> */}
+      <Cards/>
     </div>
   );
 }
