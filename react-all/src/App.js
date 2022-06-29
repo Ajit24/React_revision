@@ -18,6 +18,7 @@ import FetchDataObj from './Component/FetchDataObj/FetchDataObj';
 import Timer from './Component/Timer/Timer';
 import WeatherApp from './Component/WeatherApp/WeatherApp';
 import Count2 from './Component/Count2/Count2';
+import Login from './Component/Login/Login';
 function App() {
   return (
     <div className="App">
@@ -42,8 +43,8 @@ function App() {
      {/* <FetchDataObj/> */}
      {/* <Timer/> */}
      {/* <WeatherApp/> */}
-     <Count2/>
-
+     {/* <Count2/> */}
+      <Login/>
     </div>
   );
 }
