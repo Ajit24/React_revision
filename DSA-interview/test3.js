@@ -3,12 +3,14 @@ var input = ["amr", "ram", "dad", "aja", "rama"]
 //    out = [[amr, ram][dad, aja, rama]];
 
 for(var i=0; i<input.length; i++){
-    for(var j=i; j<input.length; j++){
-        checkStringsAnagram(input[i], input[j])
+    for(var j=i+1; j<input.length; j++){
+        //checkStringsAnagram(input,input[i], input[j])
+        console.log(input[i], input[j])
     }
 }
 
-function checkStringsAnagram(a, b) {
+function checkStringsAnagram(input, a, b) {
+    console.log("start",input, a, b)
     var arr1 = [];
     var arr2 = [];
     var main = [];
@@ -21,13 +23,17 @@ function checkStringsAnagram(a, b) {
     let str1 = a.split('').sort().join('');
     let str2 = b.split('').sort().join('');
     if(str1 === str2){
+        input.pop(a);
+        input.pop(b);
        arr1.push(a);
       arr1.push(b);
-    } else { 
+    } else {
+        input.pop(a);
+        input.pop(b) 
         arr2.push(a);
         arr2.push(b);
     }
-    console.log(arr1)
+    console.log(arr2)
  }
  
   
