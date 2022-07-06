@@ -26,7 +26,7 @@ export default function Remote() {
         <div className='mainDivflex'>
         {
             res.map((e) => (
-                <div className='Clicking' style={{backgroundColor:"red" , width: "100px" , height:"100px" , borderRadius:"100%" }} ></div>
+                <div className='Clicking' tabIndex="1" style={{backgroundColor:"red" , width: "100px" , height:"100px" , borderRadius:"100%" }} ></div>
  
             ))
         }
