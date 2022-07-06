@@ -1,0 +1,13 @@
+button{
+    padding: 1%;
+    width: 100px;
+    height: 100px;
+}
+
+.mainDivflex{
+    display: flex;
+}
+
+.Clicking{
+    border: 2px solid blue ;
+}

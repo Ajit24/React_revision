@@ -21,6 +21,7 @@ import Count2 from './Component/Count2/Count2';
 import Login from './Component/Login/Login';
 import Cards from './Component/Cards/Cards';
 import ImageUpload from './Component/ImageUpload/ImageUpload';
+import Remote from './Component/Remote/Remote';
 function App() {
   return (
     <div className="App">
@@ -48,7 +49,8 @@ function App() {
      {/* <Count2/> */}
       {/* <Login/> */}
       {/* <Cards/> */}
-      <ImageUpload/>
+      {/* <ImageUpload/> */}
+      <Remote/>
     </div>
   );
 }
