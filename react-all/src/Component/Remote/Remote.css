@@ -6,6 +6,7 @@ button{
 
 .mainDivflex{
     display: flex;
+    border: 2px solid yellow;
 }
 
 .Clicking:focus{

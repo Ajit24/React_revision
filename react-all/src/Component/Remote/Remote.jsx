@@ -17,12 +17,12 @@ export default function Remote() {
     <div>
         {/* <p>{ct}</p>
         <p>{res}</p> */}
-        <button onClick={() => setCt(ct+1)}>+</button>
+        <button onClick={() => setCt(ct+1)}>VOL+</button>
         <button onClick={() => {
             if(ct >= 1){
                 setCt(ct-1)
             }
-        }}>-</button>
+        }}>VOL-</button>
         <div className='mainDivflex'>
         {
             res.map((e) => (
