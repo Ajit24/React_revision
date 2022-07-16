@@ -1,0 +1,80 @@
+1-  Explain briefly what happens when you hit a url? explain DNS lookup
+Ans-When we enter a url into a web Browser ,the browser look up the IP address for the domain name via DNS. The browser sends a HTTP request to the server.The server sends back
+    a HTTP response.
+              Domain name system (DNS) lookups are how end 
+users obtain the websites they search for. It is the way DNS
+ services resolve end-user queries and acquire information related to domains 
+
+
+2--What is a URLs full form? Explain what a url is and the four parts it consists of The protocol in use The hostname of the server The location of the file The arguments to the file?
+Ans--URL stands for Uniform Resource Locator, and is used to specify addresses on the World Wide Web. A URL is the fundamental network identification for any resource connected to the web 
+     (e.g., hypertext pages, images, and sound files).
+    
+3--What is HTTP protocol?
+Ans-- The Hypertext Transfer Protocol (HTTP) is an application protocol for distributed, collaborative, and hypermedia information systems. HTTP is the foundation of data communication for
+      the World Wide Web. Hypertext is structured text that uses logical links (hyperlinks) between nodes containing text.
+
+4--What is TCP Protocol?
+Ans-Transmission Control Protocol (TCP) – a connection-oriented communications protocol that facilitates the exchange of messages between computing devices in a network. It is the most 
+   common protocol in networks that use the Internet Protocol (IP); together they are sometimes referred to as TCP/IP.
+   
+5--Explain all the different HTTP methods?
+Ans--The DELETE method deletes the specified resource. The CONNECT method establishes a tunnel to the server identified by the target resource. The OPTIONS method describes the 
+    communication options for the target resource. The TRACE method performs a message loop-back test along the path to the target resource.
+
+6--What are HTTP headers?
+Ans--HTTP headers let the client and the server pass additional information with an HTTP request or response. An HTTP header consists of its case-insensitive name followed by a colon ( : ),
+      then by its value. Whitespace before the value is ignored.
+
+7--What does cache control on http response mean?
+Ans--Cache-control is an HTTP header used to specify browser caching policies in both client requests and server responses. 
+
+8--What is polling?
+Ans-- Polling is the process where the computer or controlling device waits for an external device to check for its readiness or state, often with low-level hardware.
+
+9--What is long polling?
+Ans--A technology where the client requests information from the server without expecting an immediate response.
+
+10--What are web sockets?
+Ans--A WebSocket is a standard bidirectional TCP socket between the client and the server. The socket starts out as a HTTP connection and then "Upgrades" to a TCP socket after a HTTP 
+    handshake. After the handshake, either side can send data.
+
+11--How is web sockets different from HTTP?
+Ans--Unlike HTTP, where you have to constantly request updates, with websockets, updates are sent immediately when they are available. WebSockets keeps a single, persistent connection 
+    open while eliminating latency problems that arise with HTTP request/response-based methods.
+
+12--What is HTTPS?
+Ans--HTTPS (Hypertext Transfer Protocol Secure) is an internet communication protocol that protects the integrity and confidentiality of data between the user's computer and the site. 
+     Users expect a secure and private online experience when using a website.
+
+13--What is Cross Origin Resource Sharing? ( CORS ) Why do we need it?
+Ans--“CORS” stands for Cross-Origin Resource Sharing. It allows you to make requests from one website to another website in the browser, which is normally prohibited by another browser 
+     policy called the Same-Origin Policy (SOP)
+
+14--What does Access-Control-Allow-Origin header do?
+Ans--The Access-Control-Allow-Origin header is included in the response from one website to a request originating from another website, and identifies the permitted origin of the request.
+
+15--What is clickjacking? How do you fix it?
+Ans--Clickjacking is an attack that fools users into thinking they are clicking on one thing when they are actually clicking on another.
+          A better approach to prevent clickjacking attacks is to ask the browser to block any attempt to load your website within an iframe. You can do it by sending the X-Frame-Options 
+         HTTP header.
+
+16--What do CDN or Content Delivery Networks do? When do you need a CDN?
+Ans--A content delivery network (CDN) refers to a geographically distributed group of servers which work together to provide fast delivery of Internet content. A CDN allows for the quick 
+     transfer of assets needed for loading Internet content including HTML pages, javascript files, stylesheets, images, and videos
+
+17--What is the difference between Client Side Renderring and Server Side Renderring?
+Ans--Client-side rendering manages the routing dynamically without refreshing the page every time a user requests a different route. But server-side rendering is able to display a fully 
+      populated page on the first load for any route of the website, whereas client-side rendering displays a blank page first.
+
+18--What is Progressive Renderring?
+Ans--“Progressive Server-Side Rendering — the key to a faster web page is the technique of sequentially rendering parts of the web page on the server-side and send it to the client 
+      in portions without waiting for the entire page to be rendered.
+
+19--What is the difference between Preloading and Prefetching resources?
+Ans-Preload is an early fetch instruction to the browser to request a resource needed for a page (key scripts, Web Fonts, hero images). Prefetch serves a slightly different use case — 
+    a future navigation by the user (e.g between views or pages) where fetched resources and requests need to persist across navigations.
+
+20--What are service workers?
+Ans-A service worker is a type of web worker. It's essentially a JavaScript file that runs separately from the main browser thread, intercepting network requests, caching or 
+      retrieving resources from the cache, and delivering push messages.
