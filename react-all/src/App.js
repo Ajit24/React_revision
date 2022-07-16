@@ -47,10 +47,10 @@ function App() {
      {/* <Timer/> */}
      {/* <WeatherApp/> */}
      {/* <Count2/> */}
-      {/* <Login/> */}
+      <Login/>
       {/* <Cards/> */}
       {/* <ImageUpload/> */}
-      <Remote/>
+      {/* <Remote/> */}
     </div>
   );
 }
