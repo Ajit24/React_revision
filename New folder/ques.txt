@@ -1,0 +1,62 @@
+1.What are some new things happening in the web?
+
+Answer: Artificial Intelligence and Bots, Single Page Application (SPA), Voice Search Optimization, Automation Testing, Blockchain Technology, Internet of Things (IoT), Virtual Reality, Cloud Computing, Data Security etc.
+
+2.Explain a project that you have built?
+
+Answer:
+ recentely i created one E-commerce clothing website using reactjs & nodejs . 
+I created the homepage,login & signUp page, product details page,
+payment page and checkout page. All the data of this website is stored in the local 
+storage . whatever it may be Login ,Signup data or  user product data. 
+I stored all the data locally in my machine . For exploring the website you have to 
+ first signup and also login and I categorised different sessection  of 
+the products you can go through from starting to the end .And if you want to check 
+any particular product you need to just click on the product it will redirect to the
+ product details page .And you can purchase multiple Items and also delete the item 
+from the cart . After that will lend the address page after filling all the information 
+it will redirect to the payment page you have to put all the valid information there and
+ for placing the order you hate to click on place order button and It will show your
+ order  successful.
+ i will again landed on home page for continue shopping
+
+3. Whats something exciting that you have built?
+
+Answer: 
+Answer In this project I designed the beautiful UI part and dynamic functionality like  SignUp page, LogIn Page,
+with user verification, and in product page add the all the product details, 
+statically in my local machine, and add add to cart and remove from cart functionality, and validation payment page.
+
+
+4.What are you most excited about?
+
+Answer: 
+This is my first job application, so I cannot say exactly what I am excited about when it comes to work. 
+When you are young, however, everything looks exciting and promising.
+I can assure you that I am looking forward to start working, after spending long years studying, and getting ready for this very moment.
+What’s more, I really like what you do in this company, and it will be a dream come true to get a chance to work for you.
+
+
+
+5. Why do coding standards matter? What are some patterns you follow?
+
+Answer : The reason why coding standards are important is that they help to ensure safety, security, and reliability.
+Coding rules and guidelines ensure that software is:
+Safe: It can be used without causing harm.
+Secure: It can’t be hacked.
+Reliable: It functions as it should, every time.
+Testable: It can be tested at the code level.
+Maintainable: It can be maintained, even as your codebase grows.
+Portable: It works the same in every environment.
+
+6.How do you go about managing responsive websites?
+
+Answer :  Focus On The Content, Get To Know The Media Query,  Keep A “Mobile First” Mentality, Create A Flexible Foundation, Optimize Your Assets, ake Your Website “Touch-Friendly”, Pick The Right Content Management System (CMS), Invest In Testing Tools etc.
+
+7.What do you care about the most when you write software?
+
+Answer: 
+Acceptability. Software must be acceptable to the type of users for which it is designed. ...
+Dependability & Security. Software dependability includes a range of characteristics including reliability, security, and safety. ...
+Efficiency. ...
+Maintainability.
