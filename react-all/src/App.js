@@ -22,6 +22,7 @@ import Login from './Component/Login/Login';
 import Cards from './Component/Cards/Cards';
 import ImageUpload from './Component/ImageUpload/ImageUpload';
 import Remote from './Component/Remote/Remote';
+import CopyText from './Component/CopyText/CopyText';
 function App() {
   return (
     <div className="App">
@@ -46,11 +47,15 @@ function App() {
      {/* <FetchDataObj/> */}
      {/* <Timer/> */}
      {/* <WeatherApp/> */}
-     <Count2/>
+     {/* <Count2/> */}
       {/* <Login/> */}
       {/* <Cards/> */}
       {/* <ImageUpload/> */}
       {/* <Remote/> */}
+         
+         <CopyText/>
+
+
     </div>
   );
 }
