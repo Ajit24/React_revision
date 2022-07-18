@@ -46,8 +46,8 @@ function App() {
      {/* <FetchDataObj/> */}
      {/* <Timer/> */}
      {/* <WeatherApp/> */}
-     {/* <Count2/> */}
-      <Login/>
+     <Count2/>
+      {/* <Login/> */}
       {/* <Cards/> */}
       {/* <ImageUpload/> */}
       {/* <Remote/> */}
