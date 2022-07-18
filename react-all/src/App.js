@@ -53,7 +53,8 @@ function App() {
       {/* <ImageUpload/> */}
       {/* <Remote/> */}
          
-         <CopyText/>
+         {/* <CopyText/> */}
+         
 
 
     </div>
