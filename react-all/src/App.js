@@ -25,6 +25,7 @@ import Remote from './Component/Remote/Remote';
 import CopyText from './Component/CopyText/CopyText';
 import HideAndShowPassword from './Component/HideAndShowPassword/HideAndShowPassword';
 import Toggle from './Component/Toggle/Toggle';
+import PopUp from './Component/Popup/Popup';
 function App() {
   return (
     <div className="App">
@@ -58,7 +59,8 @@ function App() {
          {/* <CopyText/> */}
          {/* <HideAndShowPassword/> */}
 
-         <Toggle/>
+         {/* <Toggle/> */}
+        <PopUp/>
 
 
     </div>
