@@ -24,6 +24,7 @@ import ImageUpload from './Component/ImageUpload/ImageUpload';
 import Remote from './Component/Remote/Remote';
 import CopyText from './Component/CopyText/CopyText';
 import HideAndShowPassword from './Component/HideAndShowPassword/HideAndShowPassword';
+import Toggle from './Component/Toggle/Toggle';
 function App() {
   return (
     <div className="App">
@@ -55,7 +56,9 @@ function App() {
       {/* <Remote/> */}
          
          {/* <CopyText/> */}
-         <HideAndShowPassword/>
+         {/* <HideAndShowPassword/> */}
+
+         <Toggle/>
 
 
     </div>
