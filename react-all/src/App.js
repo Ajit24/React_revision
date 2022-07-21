@@ -26,6 +26,7 @@ import CopyText from './Component/CopyText/CopyText';
 import HideAndShowPassword from './Component/HideAndShowPassword/HideAndShowPassword';
 import Toggle from './Component/Toggle/Toggle';
 import PopUp from './Component/Popup/Popup';
+import Filter from './Component/Filter/Filter';
 function App() {
   return (
     <div className="App">
@@ -60,8 +61,8 @@ function App() {
          {/* <HideAndShowPassword/> */}
 
          {/* <Toggle/> */}
-        <PopUp/>
-
+        {/* <PopUp/> */}
+           <Filter/>
 
     </div>
   );
