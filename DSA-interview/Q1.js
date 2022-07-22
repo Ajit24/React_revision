@@ -102,3 +102,25 @@ function secondLargest(arr) {
 
 
 console.log(secondLargest([100,2,4,54,27,98,99]));
+
+// print array to n times 
+
+let array = [1,2,3];
+var N = 3;
+//out = [1,2,3,1,2,3,1,2,3];
+var res = []
+for(var i = 0; i<N; i++){
+  for(var j = 0; j<array.length; j++){
+    res.push(array[j]);
+  }
+}
+console.log(res);
+
+// sort array 
+
+let arrr = [4,5,8,23,7];
+
+// arrr.sort((a, b) => a - b);
+arrr.sort((a, b) => b - a);
+
+console.log(arrr);
