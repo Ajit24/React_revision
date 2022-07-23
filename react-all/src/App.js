@@ -34,7 +34,7 @@ function App() {
     <div className="App">
       
       {/* <Test/> */}
-      <Validation />
+      {/* <Validation /> */}
         {/* <StopAfterSomeTime/> */}
         {/* <HideBTNAfterSomeCount/> */}
       {/* <AddTwoNum/> */}
