@@ -14,7 +14,7 @@ export default function Onclick3() {
   return (
     <div>
         {/* <button onClick={() => HandleClick()}>hellooo</button> */}
-        <button onClick={HandleClick}>Hii</button>
+        <button onClick={HandleClick} >Hii</button>
     </div>
   )
 }
