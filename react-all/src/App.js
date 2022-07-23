@@ -28,6 +28,7 @@ import Toggle from './Component/Toggle/Toggle';
 import PopUp from './Component/Popup/Popup';
 import Filter from './Component/Filter/Filter';
 import Fetch from './Component/Fetch/Fetch';
+import Onclick3 from './Component/Onclick3/Onclick3';
 function App() {
   return (
     <div className="App">
@@ -64,7 +65,8 @@ function App() {
          {/* <Toggle/> */}
         {/* <PopUp/> */}
            {/* <Filter/> */}
-           <Fetch/>
+           {/* <Fetch/> */}
+           <Onclick3/>
 
     </div>
   );
