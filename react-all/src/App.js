@@ -29,6 +29,7 @@ import PopUp from './Component/Popup/Popup';
 import Filter from './Component/Filter/Filter';
 import Fetch from './Component/Fetch/Fetch';
 import Onclick3 from './Component/Onclick3/Onclick3';
+import Loading from './Component/Loading/Loading';
 function App() {
   return (
     <div className="App">
@@ -67,6 +68,7 @@ function App() {
            {/* <Filter/> */}
            {/* <Fetch/> */}
            {/* <Onclick3/> */}
+           <Loading/>
 
     </div>
   );
