@@ -166,3 +166,66 @@
        //output = 5
 
 
+
+       // ----------------  Median of Two Sorted Arrays
+
+
+//        Given two sorted arrays nums1 and nums2 of size m and n respectively, return the median of the two sorted arrays.
+
+// The overall run time complexity should be O(log (m+n)).
+// Example 1:
+
+// Input: nums1 = [1,3], nums2 = [2]
+// Output: 2.00000
+
+// Explanation: merged array = [1,2,3] and median is 2.
+
+function MedianSortedArrays(nums1, nums2) {
+    
+    const nums = nums1.concat(nums2);
+ const n = nums.length;
+ nums.sort((a, b) => a - b);
+
+ if (n % 2 !== 0) {
+   return nums[Math.floor(n / 2)];
+ }
+
+ return (nums[n / 2] + nums[n / 2 - 1]) / 2;
+   
+}
+var res = MedianSortedArrays([1,2],[3,4]);
+console.log(res.toFixed(5));
+// out = 2.50000
+
+
+//       ----------------    jump game2 -        --------------------------------------------
+// Given an array of non-negative integers nums, you are initially positioned at the first index of the array.
+
+// Each element in the array represents your maximum jump length at that position.
+
+// Your goal is to reach the last index in the minimum number of jumps.
+
+// You can assume that you can always reach the last index.
+// Example 1:
+
+// Input: nums = [2,3,1,1,4]
+// Output: 2
+  function jump(nums) {
+    var l = 0, r = 0, jumps = 0;
+    var n = nums.length
+    while(r < n-1){
+        var maxReach = 0;
+        for(var i = l; i < r+1; i++){
+            maxReach = Math.max(maxReach, nums[i]+i);
+        }
+        l = r+1;
+        r = maxReach;
+        jumps += 1;
+    }
+    return jumps;
+};
+var res = jump([2,3,0,1,4]);
+console.log(res);
+// out = 2
+
+

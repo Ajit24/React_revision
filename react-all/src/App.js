@@ -70,7 +70,7 @@ function App() {
            {/* <Fetch/> */}
            {/* <Onclick3/> */}
            {/* <Loading/> */}
-           <TypeWrite/>
+           {/* <TypeWrite/> */}
 
     </div>
   );
