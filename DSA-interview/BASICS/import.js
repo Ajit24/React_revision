@@ -116,7 +116,7 @@
    var arr = [ 10, 5, 3, 4, 3, 5, 6 ];
   // out = 5;
    var n = arr.length;
-   function printFirstRepeating(arr , n) {
+   function FirstRepeating(arr , n) {
 
        // This will set k=1, if any
        // repeating element found
@@ -162,7 +162,7 @@
            console.log(arr[min-1]);
        }
    }
-       printFirstRepeating(arr, n);
+       FirstRepeating(arr, n);
        //output = 5
 
 
