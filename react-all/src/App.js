@@ -31,6 +31,7 @@ import Fetch from './Component/Fetch/Fetch';
 import Onclick3 from './Component/Onclick3/Onclick3';
 import Loading from './Component/Loading/Loading';
 import TypeWrite from './Component/TypeWrite/TypeWrite';
+import Togg from './Component/ToggBtn/Togg';
 function App() {
   return (
     <div className="App">
@@ -71,6 +72,7 @@ function App() {
            {/* <Onclick3/> */}
            {/* <Loading/> */}
            {/* <TypeWrite/> */}
+           <Togg/>
 
     </div>
   );
