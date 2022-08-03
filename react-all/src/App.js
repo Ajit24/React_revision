@@ -33,6 +33,7 @@ import Loading from './Component/Loading/Loading';
 import TypeWrite from './Component/TypeWrite/TypeWrite';
 import Togg from './Component/ToggBtn/Togg';
 import Count3 from './Component/Count3/Count3';
+import HtmlEditor from './Component/Htmleditor/Htmleditor';
 function App() {
   return (
     <div className="App">
@@ -74,7 +75,8 @@ function App() {
            {/* <Loading/> */}
            {/* <TypeWrite/> */}
            {/* <Togg/> */}
-           <Count3/>
+           {/* <Count3/> */}
+           <HtmlEditor/>
 
     </div>
   );
