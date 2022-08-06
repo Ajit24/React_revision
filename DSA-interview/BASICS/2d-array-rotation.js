@@ -65,3 +65,19 @@ function rotate(a, deg) {
 	// otherwise, if it's 0 degrees
 	return a;
 }
+
+// Flips the given two-dimensional array horizontally.
+
+function hflip(a) {
+	const h = a.length;
+	let b = new Array(h);
+	for (let y=0; y<h; y++) {
+		let w = a[y].length;
+		b[y] = new Array(w);
+		for (let x=0; x<w; x++) {
+			let n = w-1-x;
+			b[y][n] = a[y][x];
+		}
+	}
+	return b;
+}
