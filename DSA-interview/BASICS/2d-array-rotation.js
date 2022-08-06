@@ -81,3 +81,19 @@ function hflip(a) {
 	}
 	return b;
 }
+
+// Flips the given two-dimensional array vertically.
+
+function vflip(a) {
+	const h = a.length;
+	let b = new Array(h);
+	for (let y=0; y<h; y++) {
+		let w = a[y].length;
+		let n = h-1-y;
+		b[n] = new Array(w);
+		for (let x=0; x<w; x++) {
+			b[n][x] = a[y][x];
+		}
+	}
+	return b;
+}
