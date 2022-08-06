@@ -16,4 +16,4 @@ setToggle(!toggle);
   )
 }
 
-export default Togg
+export default Togg;
