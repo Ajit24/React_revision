@@ -1,4 +1,5 @@
 const str = 'Hello World how is it outside';
+//           olleH dlroW woh si ti edistuo
 const reverseSentence = str => {
    const arr = str.split(" ");
    console.log(arr)
