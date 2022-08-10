@@ -35,3 +35,28 @@ function reverseString(str) {
 }
 reverseString("hello");
 
+//4 . Reverse a string with Recursive method ;
+
+function reverseString(str) {
+  if (str === "") {
+    return "";
+  }
+  else {
+    return reverseString(str.substr(1)) + str.charAt(0);
+}
+}
+reverseString("hello");
+
+//5. Reverse a string with iterative method ;
+
+function reverseString(str) {
+  var newString = "";
+  for (var i = str.length - 1; i >= 0; i--) { 
+      newString += str[i]; 
+  }
+  return newString; 
+}
+reverseString('hello');
+
+
+
