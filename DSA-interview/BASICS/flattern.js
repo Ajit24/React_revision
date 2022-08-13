@@ -16,6 +16,27 @@ let arr=[1,[2,3],[4,5,6],[8,9],[[7]]];
  }
 console.log(flatten(arr));
 
+// ----------- 2nd method 
+
+// const flatten = function(arr, result = []) {
+//    for (let i = 0, length = arr.length; i < length; i++) {
+//      const value = arr[i];
+//      if (Array.isArray(value)) {
+//        flatten(value, result);
+//      } else {
+//        result.push(value);
+//      }
+//    }
+//    return result;
+//  };
+
+// ------------- ES6 method 
+
+// const flatten = (arr) => {
+//    return arr.reduce((flat, toFlatten) => {
+//      return flat.concat(Array.isArray(toFlatten) ? flatten(toFlatten) : toFlatten);
+//    }, []);
+//  }
  
 
  
