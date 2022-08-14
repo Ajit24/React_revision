@@ -17,7 +17,7 @@ function runProgram(input) {
     countNames(arr);
 
 }
-if (process.env.USERNAME === "getsu") {
+if (process.env.USERNAME === "Ajit") {
     runProgram(`3
 masai
 school
