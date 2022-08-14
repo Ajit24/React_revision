@@ -33,7 +33,8 @@ import Loading from './Component/Loading/Loading';
 import TypeWrite from './Component/TypeWrite/TypeWrite';
 import Togg from './Component/ToggBtn/Togg';
 import Count3 from './Component/Count3/Count3';
-import HtmlEditor from './Component/Htmleditor/Htmleditor';
+//import HtmlEditor from './Component/Htmleditor/Htmleditor';
+import DarkToLight from './Component/DarkToLight/DarkToLight';
 function App() {
   return (
     <div className="App">
@@ -76,7 +77,8 @@ function App() {
            {/* <TypeWrite/> */}
            {/* <Togg/> */}
            {/* <Count3/> */}
-           <HtmlEditor/>
+           {/* <HtmlEditor/> */}
+           <DarkToLight/>
 
     </div>
   );
