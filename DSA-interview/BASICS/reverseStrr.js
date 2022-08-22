@@ -9,6 +9,9 @@ function reverseString(str) {
  console.log(reverseString("hello"));
  // out = olleh
 
+
+ 
+
  // Conditional (Ternary) Operator:
  function reverseString(str) {
     return (str === '') ? '' : reverseString(str.substr(1)) + str.charAt(0);
