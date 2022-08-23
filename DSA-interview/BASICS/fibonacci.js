@@ -24,8 +24,10 @@
 //console.log(temp); // 1 1 2 3 5;
    
 
-var n = 5;
+//var n = 5;
 // 1 1 2 3 5
+var n = 10;
+// 1 1 2 3 5 8 13 21 34 55
 var temp = "1";
 var sum = 0;
 var a = 0;
