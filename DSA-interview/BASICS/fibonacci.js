@@ -1,6 +1,6 @@
- // 4 star question
+ //4 star question
 
-// var n = 9;
+// var n = 5;
 // var arr = [1, 1];
 // var temp = "";
 
@@ -19,11 +19,13 @@
 //     arr.shift()
 
 // }
-// console.log(arr);
-// console.log(temp);
+// console.log(arr); // [5,8]
+
+//console.log(temp); // 1 1 2 3 5;
    
 
-var n = 9;
+var n = 5;
+// 1 1 2 3 5
 var temp = "1";
 var sum = 0;
 var a = 0;
