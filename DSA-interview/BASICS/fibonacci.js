@@ -40,3 +40,29 @@ for (let i = 0; i < n-1;i++)
     b = sum; 
 }
 console.log(temp);
+
+// -------------------   fib using recursion 
+
+// program to display fibonacci sequence using recursion
+function fibonacci(num) {
+    if(num < 2) {
+        return num;
+    }
+    else {
+        return fibonacci(num-1) + fibonacci(num - 2);
+    }
+}
+
+// take nth term input from the user
+const nTerms = 5;
+
+if(nTerms <=0) {
+    console.log(nTerms);
+}
+else {
+    for(let i = 0; i < nTerms; i++) {
+        console.log(fibonacci(i));
+    }
+}
+// 0 1 1 2 3 
+
