@@ -15,35 +15,6 @@ function getSecondLargest(nums) {
     console.log(getSecondLargest([1,2,3,4,5,5]));
     // 4
 
-    // ----------------------  using recursion 
-
-    let input = [29, 75, 12, 89, 103, 65, 100, 78, 115, 102, 55, 214]
-
-const secondLargest = (arr, first = -Infinity, second = -Infinity, firstPos = -1, secondPos = -1, idx = 0) => {
-    arr = first === -Infinity ? [...arr] : arr;
-
-    const el = arr.shift();
-    if (!el) return { second, secondPos }
-
-    if (el > first) {
-        second = first;
-        secondPos = firstPos;
-        first = el;
-        firstPos = idx;
-    } if (el < first && el > second) {
-        second = el;
-        secondPos = idx;
-    }  
-
-    return secondLargest(arr, first, second, firstPos, secondPos, ++idx);
-}
-
-console.log(secondLargest(input));
-//  {
-//    second: 115,
-//    secondPos: 8
-//  }
-
 
 // -------------------- 
 // ---------------------   without using the inbuilt function.
