@@ -1,27 +1,16 @@
- //4 star question
-
-// var n = 5;
-// var arr = [1, 1];
-// var temp = "";
-
-// function sum(ac,el)
-// {
-   
-//     return ac+el; 
-// }
-
-//  temp+=arr[0]
-// for (let i = 1; i < n;i++)
-// {
-//     temp += ", " + arr[1];
-   
-//     arr.push(arr.reduce(sum))
-//     arr.shift()
-
-// }
-// console.log(arr); // [5,8]
-
-//console.log(temp); // 1 1 2 3 5;
+// Fibonacci Sequence
+function fibonacci(n) {
+    const fib = [0, 1]
+    for (let i = 2; i <= n; i++) {
+      fib[i] = fib[i - 1] + fib[i - 2]
+    }
+    return fib
+  }
+  
+  console.log(fibonacci(2)) // [0,1]
+  console.log(fibonacci(3)) // [0,1,1]
+  console.log(fibonacci(7)) // [0,1,1,2,3,5,8]
+  
    
 
 //var n = 5;
