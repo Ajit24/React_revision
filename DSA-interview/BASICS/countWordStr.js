@@ -13,3 +13,13 @@ const findWords = (str = '') => {
 };
 console.log(findWords(str));
 //5
+
+function removeDuplicateCharacters(string) {
+    return string
+      .split('')
+      .filter(function(item, pos, self) {
+        return self.indexOf(item) == pos;
+      })
+      .join('');
+  }
+  console.log(removeDuplicateCharacters('baraban')); // barn
