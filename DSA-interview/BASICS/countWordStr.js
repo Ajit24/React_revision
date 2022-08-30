@@ -13,7 +13,7 @@ const findWords = (str = '') => {
 };
 console.log(findWords(str));
 //5
-
+// remove duplicate words from string 
 function removeDuplicateCharacters(string) {
     return string
       .split('')
