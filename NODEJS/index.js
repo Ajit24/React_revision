@@ -1,3 +1,10 @@
+// var http = require('http');
+
+// http.createServer(function(req,res){
+//     res.write("Hello Ajit");
+//     res.end();
+// }).listen(8800);
+
 // include http module in the file
 var http = require('http');
  
