@@ -37,6 +37,25 @@ console.log(flatten(arr));
 //      return flat.concat(Array.isArray(toFlatten) ? flatten(toFlatten) : toFlatten);
 //    }, []);
 //  }
+
+//-----------------------------
+
+function flatten(arr, ret = []) {
+   for (const entry of arr) {
+       if (Array.isArray(entry)) {
+           flatten(entry, ret)
+       } else {
+           ret.push(entry)
+       }
+   }
+   return ret;
+}
+
+const arr1 = [0, 1, 2, [3, 4]]; 
+const arr2 = [1, 2, [3, 4, 5, [6, 7]]]; 
+
+console.log(flatten(arr1)); // [ 0, 1, 2, 3, 4 ]
+console.log(flatten(arr2)); // [1, 2, 3, 4, 5, 6, 7]
  
 
  
