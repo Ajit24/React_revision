@@ -10,13 +10,12 @@ export default function Fetch() {
         axios.get("https://reqres.in/api/users").then((res) => setData(res.data.data))
 
     }, [])
-
-    console.log("data", data)
+ console.log("data", data)
     return (
         <div>
             <div className='MainDIV'>
 
-                {
+                {/* {
                     data.map((e) => (
                         <div key={e.id} className="cardDiv" >
                             <img src={e.avatar} />
@@ -25,7 +24,7 @@ export default function Fetch() {
                             <p>{e.last_name}</p>
                         </div>
                     ))
-                }
+                } */}
 
             </div>
 

@@ -71,14 +71,14 @@ function App() {
          {/* <Toggle/> */}
         {/* <PopUp/> */}
            {/* <Filter/> */}
-           {/* <Fetch/> */}
+           <Fetch/>
            {/* <Onclick3/> */}
            {/* <Loading/> */}
            {/* <TypeWrite/> */}
            {/* <Togg/> */}
            {/* <Count3/> */}
            {/* <HtmlEditor/> */}
-           <DarkToLight/>
+           {/* <DarkToLight/> */}
 
     </div>
   );
