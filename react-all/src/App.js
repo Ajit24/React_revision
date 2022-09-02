@@ -71,7 +71,7 @@ function App() {
          {/* <Toggle/> */}
         {/* <PopUp/> */}
            {/* <Filter/> */}
-           <Fetch/>
+           {/* <Fetch/> */}
            {/* <Onclick3/> */}
            {/* <Loading/> */}
            {/* <TypeWrite/> */}
