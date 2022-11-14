@@ -35,6 +35,7 @@ import Togg from './Component/ToggBtn/Togg';
 import Count3 from './Component/Count3/Count3';
 //import HtmlEditor from './Component/Htmleditor/Htmleditor';
 import DarkToLight from './Component/DarkToLight/DarkToLight';
+import SearchLocation from './Component/SearchLocation/SearchLocation';
 function App() {
   return (
     <div className="App">
@@ -79,7 +80,7 @@ function App() {
            {/* <Count3/> */}
            {/* <HtmlEditor/> */}
            {/* <DarkToLight/> */}
-
+          <SearchLocation/>
     </div>
   );
 }
