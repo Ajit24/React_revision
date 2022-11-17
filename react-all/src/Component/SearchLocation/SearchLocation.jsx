@@ -45,10 +45,14 @@ const SearchLocation = () => {
   const autoCompleteRef = useRef(null);
 
   useEffect(() => {
+  try {
     loadScript(
-      `https://maps.googleapis.com/maps/api/js?key="AIzaSyA-7_psy6eMHllQvPy5P3x_38FqgoHKsG4",&libraries=places`,
+      `https://maps.googleapis.com/maps/api/js?key=AIzaSyA-7_psy6eMHllQvPy5P3x_38FqgoHKsG4&libraries=places`,
       () => handleScriptLoad(setQuery, autoCompleteRef)
     );
+  } catch (error) {
+    console.log(error);
+  }
   }, []);
 
   return (
